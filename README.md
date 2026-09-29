@@ -7,16 +7,16 @@ I built it to practice object-oriented programming, data persistence and learn h
 ---
 
 ## Features
-* Data Persistence -> Python's JSON module was used to save user sessions and allows users to return to their previous portfolio without deleting all their data.
-* Input Validation -> All user inputs were validated using `try/except` blocks to prevent runtime crashes.
-* Object-Oriented Style-> This program was built following object oriented programming rules to ensure the code was flexible and maintainable.
+* **Data Persistence** -> Python's JSON module was used to save user sessions and allows users to return to their previous portfolio without deleting all their data.
+* **Input Validation** -> All user inputs were validated using `try/except` blocks to prevent runtime crashes.
+* **Object-Oriented Style** -> This program was built following object oriented programming rules to ensure the code was flexible and maintainable.
 
 ---
 
 ## Data Structures and Modules Used
-* Lists -> Lists like `self.assets` and `saved` were used to store the user's assets for the current session or to save the assets in a JSON file.
-* Dictionaries -> dictionaries like `saving_assets` were used to store the assets key-value pairs so they could be appended into the  `saved` list.
-* Datetime -> the `datetime` module was used to track the amount of days an active asset was held in a portfolio.
+* **Lists** -> Lists like `self.assets` and `saved` were used to store the user's assets for the current session or to save the assets in a JSON file.
+* **Dictionaries** -> dictionaries like `saving_assets` were used to store the assets key-value pairs so they could be appended into the  `saved` list.
+* **Datetime** -> the `datetime` module was used to track the amount of days an active asset was held in a portfolio.
 
 ---
 
@@ -89,7 +89,7 @@ I CHOOSE OPTION ---
 ```
 
 ## Planned Improvements
-* Live API Integration -> I plan on connecting the app to a free API (Like Alpha Vantage) so market prices update automatically instead of the user having to type them in manually.
-* Database Integration -> I would like to upgrade the data storage from JSON files to an SQL database (e.g SQLite) for faster querying and improving the functionality of data persistence.
-* Realized Profit and Loss Tracking -> I plan on adding realized profit and loss and current cash balance after an asset has been sold to the code's logic.
+* **Live API Integration** -> I plan on connecting the app to a free API (like Alpha Vantage) so market prices update automatically instead of the user having to type them in manually.
+* **Database Integration** -> I would like to upgrade the data storage from JSON files to an SQL database (e.g SQLite) for faster querying and improving the functionality of data persistence.
+* **Realized Profit and Loss Tracking** -> I plan on adding realized profit and loss and current cash balance after an asset has been sold to the code's logic.
 
